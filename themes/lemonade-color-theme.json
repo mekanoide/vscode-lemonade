@@ -64,6 +64,8 @@
     "editorBracketHighlight.foreground5": "#989898", // Quinto nivel
     "editorBracketHighlight.foreground6": "#c4c4c4", // Sexto nivel
     "editorBracketHighlight.unexpectedBracket.foreground": "#989898",
+    "editorError.foreground": "#EB8947",
+    "editorWarning.foreground": "#EBDA47",
     "list.inactiveSelectionForeground": "#e8e8e8",
     "list.inactiveSelectionIconForeground": "#e8e8e8",
     "list.inactiveSelectionBackground": "#242424",
@@ -93,7 +95,7 @@
     "editorWidget.background": "#121212",
     "editorWidget.foreground": "#e8e8e8",
     "editorWidget.border": "#484848",
-    "editorWidget.resizeBorder": "#EBDA47",
+    "editorWidget.resizeBorder": "#EBDA47"
   },
   "tokenColors": [
     {
@@ -251,8 +253,6 @@
       "name": "CSS property values",
       "scope": [
         "meta.property-value.css",
-        "variable.parameter.keyframe-list.css",
-        "entity.other.keyframe-offset.css"
       ],
       "settings": {
         "foreground": "#EB8947"
@@ -261,10 +261,9 @@
     {
       "name": "CSS rules",
       "scope": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.id.css",
-        "entity.other.attribute-name.selector.css",
-        "entity.name.tag.css"
+        "meta.selector.css",
+        "entity.name.tag.css",
+        "variable.parameter.keyframe-list.css",
       ],
       "settings": {
         "foreground": "#EBDA47"
@@ -279,7 +278,11 @@
     },
     {
       "name": "CSS properties",
-      "scope": ["entity.other.attribute-name.value.css"],
+      "scope": [
+        "entity.other.attribute-name.value.css",
+        "meta.at-rule.apply.tailwind",
+        "meta.at-rule.layer.body.tailwind"
+      ],
       "settings": {
         "foreground": "#e8e8e8"
       }
@@ -293,9 +296,35 @@
     },
     {
       "name": "CSS custom properties",
-      "scope": ["variable.argument.css"],
+      "scope": ["variable.argument.css", "entity.other.keyframe-offset.css"],
       "settings": {
         "foreground": "#98e824"
+      }
+    },
+    // Markdown
+    {
+      "name": "Markdown links",
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#98e824"
+      }
+    },
+    {
+      "name": "Markdown titles",
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#e8e8e8"
+      }
+    },
+    {
+      "name": "Markdown code",
+      "scope": ["markup.fenced_code.block.markdown"],
+      "settings": {
+        "foreground": "#989898"
       }
     }
   ]
