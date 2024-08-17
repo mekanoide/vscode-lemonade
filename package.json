@@ -1,8 +1,11 @@
 {
   "name": "lemonade",
   "displayName": "Lemonade",
+  "publisher": "mekanoide",
+  "license": "MIT",
+  "repository": "https://github.com/mekanoide/vscode-lemonade.git",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "engines": {
     "vscode": "^1.92.0"
   },
