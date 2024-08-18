@@ -4,8 +4,9 @@
   "publisher": "mekanoide",
   "license": "MIT",
   "repository": "https://github.com/mekanoide/vscode-lemonade.git",
+  "icon": "images/icon.png",
   "description": "",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "engines": {
     "vscode": "^1.92.0"
   },

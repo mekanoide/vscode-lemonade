@@ -149,7 +149,7 @@
         "punctuation.definition.typeparameters.begin"
       ],
       "settings": {
-        "foreground": "#989898"
+        "foreground": "#A8A8A8"
       }
     },
     {
@@ -162,7 +162,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#989898"
+        "foreground": "#A8A8A8"
       }
     },
     {
@@ -207,7 +207,8 @@
       "scope": [
         "constant",
         //"meta.var.expr",
-        "support.type.primitive",
+        //"support.type.primitive",
+        "meta.parameters.ts",
         "entity.name.type"
       ],
       "settings": {
@@ -323,6 +324,13 @@
     {
       "name": "Markdown code",
       "scope": ["markup.fenced_code.block.markdown"],
+      "settings": {
+        "foreground": "#989898"
+      }
+    },
+    {
+      "name": "Typescript operators",
+      "scope": ["keyword.operator.type.annotation"],
       "settings": {
         "foreground": "#989898"
       }
