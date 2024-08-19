@@ -123,8 +123,6 @@
     {
       "name": "Variables properties",
       "scope": [
-        "variable.other.property",
-        "variable.other.object.property",
         "punctuation.separator.key-value",
         "keyword.operator.assignment"
         //        "keyword.operator.comparison"
@@ -202,6 +200,9 @@
     {
       "name": "Properties",
       "scope": [
+        "support.variable.property.ts",
+        "variable.other.property",
+        "variable.other.object.property",
         "variable.other.property",
         "variable.other.object.property",
         "variable.other.constant.property"
