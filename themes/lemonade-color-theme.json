@@ -1,5 +1,5 @@
 {
-  "name": "Omar Noir",
+  "name": "Lemonade",
   "type": "dark",
   "colors": {
     "editor.background": "#121212",
@@ -108,8 +108,9 @@
     },
     {
       "name": "Types",
-      "scope": ["storage.type"],
+      "scope": ["storage.type", "storage.modifier"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#989898"
       }
     },
@@ -185,13 +186,19 @@
       }
     },
     {
-      "name": "Expressions",
+      "name": "HTML attributes",
+      "scope": ["meta.attribute.class.html string", "text.html.derivative"],
+      "settings": {
+        "foreground": "#E8E8E8"
+      }
+    },
+    {
+      "name": "Operators and modifiers",
       "scope": [
-        "storage.type",
-        "keyword.control",
-        "storage.modifier",
-        "keyword.operator",
-        "meta.attribute.directive"
+        "support.type.primitive.ts",
+        "keyword.control"
+        //"keyword.operator",
+        //"meta.attribute.directive"
       ],
       "settings": {
         "foreground": "#A4EB47"
@@ -242,9 +249,7 @@
     // CSS
     {
       "name": "CSS property values",
-      "scope": [
-        "meta.property-value.css",
-      ],
+      "scope": ["meta.property-value.css"],
       "settings": {
         "foreground": "#EB8947"
       }
@@ -254,7 +259,7 @@
       "scope": [
         "meta.selector.css",
         "entity.name.tag.css",
-        "variable.parameter.keyframe-list.css",
+        "variable.parameter.keyframe-list.css"
       ],
       "settings": {
         "foreground": "#EBDA47"
