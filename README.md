@@ -1,5 +1,5 @@
 # Lemonade
 
-A citrus dark theme for Visual Studio Code.
+A very dark theme with hints of lemon, lime, orange and grapefruit.
 
 ![Screenshot](images/screenshot-lemonade.png)

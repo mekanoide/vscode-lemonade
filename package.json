@@ -6,8 +6,8 @@
   "license": "MIT",
   "repository": "https://github.com/mekanoide/vscode-lemonade.git",
   "icon": "images/icon.png",
-  "description": "A citrus dark theme for Visual Studio Code.",
-  "version": "0.0.18",
+  "description": "A very dark theme with hints of lemon, lime, orange and grapefruit.",
+  "version": "0.0.19",
   "engines": {
     "vscode": "^1.92.0"
   },
