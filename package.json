@@ -7,7 +7,7 @@
   "repository": "https://github.com/mekanoide/vscode-lemonade.git",
   "icon": "images/icon.png",
   "description": "A very dark theme with hints of lemon, lime, orange and grapefruit.",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "engines": {
     "vscode": "^1.92.0"
   },
