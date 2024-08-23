@@ -135,18 +135,18 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#aa9f5f"
+        "foreground": "#989898"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#E2E2E2"
+        "foreground": "#9bc45f"
       }
     },
     {
-      "name": "Variables properties",
+      "name": "Assignment",
       "scope": [
         "punctuation.separator.key-value",
         "keyword.operator.assignment"
@@ -213,13 +213,12 @@
     {
       "name": "Operators and modifiers",
       "scope": [
-        "support.type.primitive.ts",
         "keyword.control"
         //"keyword.operator",
         //"meta.attribute.directive"
       ],
       "settings": {
-        "foreground": "#a6d65d"
+        "foreground": "#E2E2E2"
       }
     },
     {
@@ -234,7 +233,7 @@
         "meta.attribute.directive.vue"
       ],
       "settings": {
-        "foreground": "#9bc45f"
+        "foreground": "#A8A8A8"
       }
     },
     {
@@ -243,11 +242,12 @@
         "constant",
         //"meta.var.expr",
         //"support.type.primitive",
+        "meta.type.parameters",
         "meta.parameters.ts",
-        "entity.name.type"
+        "entity.name.type",
       ],
       "settings": {
-        "foreground": "#9bc45f"
+        "foreground": "#e2e2e2"
       }
     },
     // JSON
