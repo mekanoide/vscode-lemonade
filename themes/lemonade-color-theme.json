@@ -131,7 +131,9 @@
         "keyword.control.import",
         "keyword.control.export",
         "keyword.control.from",
-        "keyword.control.as"
+        "keyword.control.as",
+        "storage.type.function.arrow.ts",
+        "meta.arrow.ts"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -166,7 +168,12 @@
     },
     {
       "name": "Functions and Tags",
-      "scope": ["entity.name.function", "entity.name.tag", "entity.name.class"],
+      "scope": [
+        "entity.name.function",
+        "entity.name.tag",
+        "entity.name.class",
+        "support.class.component.html"
+      ],
       "settings": {
         "foreground": "#d5d828"
       }
@@ -244,7 +251,7 @@
         //"support.type.primitive",
         "meta.type.parameters",
         "meta.parameters.ts",
-        "entity.name.type",
+        "entity.name.type"
       ],
       "settings": {
         "foreground": "#e2e2e2"
@@ -347,6 +354,20 @@
       "scope": ["keyword.operator.type.annotation"],
       "settings": {
         "foreground": "#989898"
+      }
+    },
+    {
+      "name": "Typescript types",
+      "scope": [
+        "support.type.primitive.ts",
+        "entity.name.type.ts",
+        "support.type.builtin.ts",
+        "keyword.operator.type.ts",
+        "meta.type.tuple.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#A8A8A8"
       }
     }
   ]
