@@ -131,13 +131,10 @@
         "keyword.control.import",
         "keyword.control.export",
         "keyword.control.from",
-        "keyword.control.as",
-        "storage.type.function.arrow.ts",
-        "meta.arrow.ts"
+        "keyword.control.as"
       ],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#c4c58b"
+        "foreground": "#A8A8A8"
       }
     },
     {
@@ -190,7 +187,9 @@
         "punctuation.definition.entity",
         "punctuation.definition.type",
         "punctuation.section.scope",
-        "string.template meta.brace"
+        "string.template meta.brace",
+        "meta.tag.block.any.html",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
         "foreground": "#686868"
@@ -212,15 +211,21 @@
     },
     {
       "name": "HTML attributes",
-      "scope": ["meta.attribute.class.html string", "text.html.derivative"],
+      "scope": [
+        "meta.attribute.class.html",
+        "text.html.derivative",
+        "meta.tag.block.any.html"
+        /* "entity.other.attribute-name.html" */
+      ],
       "settings": {
-        "foreground": "#E2E2E2"
+        "foreground": "#A8A8A8"
       }
     },
     {
       "name": "Operators and modifiers",
       "scope": [
-        "keyword.control"
+        "keyword.control",
+        "meta.directive.vue"
         //"keyword.operator",
         //"meta.attribute.directive"
       ],
@@ -236,8 +241,7 @@
         "variable.other.object.property",
         "variable.other.property",
         "variable.other.object.property",
-        "variable.other.constant.property",
-        "meta.attribute.directive.vue"
+        "variable.other.constant.property"
       ],
       "settings": {
         "foreground": "#C4C4C4"
